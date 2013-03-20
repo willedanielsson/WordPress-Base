@@ -12,7 +12,11 @@
 			<h1><? bloginfo('name') ?></h1>
 			<h2><? bloginfo('description'); ?></h2
 			
-			/* nav.main>ul */
+			<nav>
+				<? wp_nav_menu(array(
+					'container' => false
+				)); ?>
+			</nav>
 		</header>
 
 		<div class="main">
