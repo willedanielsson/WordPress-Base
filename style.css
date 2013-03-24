@@ -3,4 +3,8 @@
  * Author: ANWP
  * Author URI: http://www.anwp.se/
  * Version: 1.0
+ *
+ *
+ * This theme is not using this file for CSS. It compiles LESS into css/main.css and includes that directly in header.php
+ *
  * */
